@@ -32,11 +32,11 @@ app.use(busboy());
 //database
 var pool  = mysql.createPool({
 	connectionLimit : 200,
-	host     : 'g8mh6ge01lu2z3n1.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
-	port : '3306',
-	user     : 'ghy6trmydb22z0e2',
-	password : 'ife8u8clqe0rjd74',
-	database: 'ay7h56yxux99uzop'
+	host     : '',
+	port : '',
+	user     : '',
+	password : '',
+	database: ''
   });
 
 app.use(function(err, req, res, next) {
